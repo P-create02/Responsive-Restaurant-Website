@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Royal Warsaw</title>
+</head>
+<body>
+    <!-- Moze jakis preload -->
+
+    <header id="home">
+        <nav id="nav">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <img src="./Logo/Logo.svg" alt="Logo" class="logo">
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#menu" class="scroll-link">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="scroll-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="banner">
+            <div class="container">
+                <h1>Make the order</h1>
+                <p>Feel the power of service at the highest level.</p>
+                <a href="#menu" class="scroll-link btn btn-white">Select Order</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="menu" class="section menu">
+        <div class="title">
+            <h2>Our <span>Menu</span></h2>
+        </div>
+        <!-- btns -->
+        <div class="btn-container">
+            <!-- <button class="fliter-btn" type="button" data-id="first-courses">First Courses</button> -->
+        </div>
+
+        <!-- items -->
+        <div class="section-center">
+            <!-- <article class="menu-item">
+                <img src="./img/first-courses.jpeg" alt="Dish" class="photo">
+                <div class="item-info">
+                    <header>
+                        <h3 class="name-item">Simply Breakfast</h3>
+                        <h3 class="price">25PLN</h3>
+                    </header>
+                    <p class="item-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae error soluta laborum maiores beatae non sunt sint.
+                    </p>
+                </div>
+            </article> -->
+        </div>
+    </section>
+
+
+    <section id="about" class="section">
+        <div class="title">
+            <h2>About <span>Us</span></h2>
+            <div class="about-box">
+                <h3><span>Our</span> Goal</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex repellendus dignissimos eum enim aliquam, repellat accusamus est aliquid magnam dolores quasi quo, doloribus obcaecati illo deleniti. Dicta, libero quos.</p>
+                <h3><span>Our</span> Mission</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex repellendus dignissimos eum enim aliquam, repellat accusamus est aliquid magnam dolores quasi quo, doloribus obcaecati illo deleniti. Dicta, libero quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti alias repellendus.</p>
+                <h3><span>Our</span> Values</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex repellendus dignissimos eum enim aliquam, repellat accusamus est aliquid magnam dolores quasi quo..</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="title">
+            <h2>Contact <span>Us</span></h2>
+            <div class="contact-text">
+                <h3>You find us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequuntur inventore sunt earum cum unde obcaecati dolorem doloribus perferendis sequi animi voluptate, enim quam, quia alias esse consequatur nemo corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ab, quaerat amet natus illum provident vitae illo obcaecati.</p>
+            </div>
+
+            <div class="adress-socials">
+                <div class="adress">
+                    <h3>Adress</h3>
+                    <i class="fas fa-phone-alt">+48 600 600 600</i>
+                    <i class="fas fa-city">Warsaw</i>
+                    <i class="fas fa-map-marked-alt">Warsaw Street 52</i>
+                </div>
+
+                <div class="socials">
+                    <h3>Socials</h3>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-snapchat-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="section">
+        <p>&copy; Copyright Royal Warsaw Restaurant <span id="date"></span> &copy;</p>
+    </footer>
+
+
+    <a href="#home" class="scroll-link top-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="./JS/page functionality.js"></script>
+    <script src="./JS/menu functionality.js"></script>
+</body>
+</html>
